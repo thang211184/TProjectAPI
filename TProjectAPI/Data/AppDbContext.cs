@@ -14,5 +14,6 @@ namespace TProjectAPI.Data
 
         }
         public DbSet<People> People { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
     }
 }

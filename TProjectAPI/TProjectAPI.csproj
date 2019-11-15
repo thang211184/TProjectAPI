@@ -179,6 +179,10 @@
     <Compile Include="Migrations\201911051958352_Initial.designer.cs">
       <DependentUpon>201911051958352_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911152006319_AppointmentAdded.cs" />
+    <Compile Include="Migrations\201911152006319_AppointmentAdded.designer.cs">
+      <DependentUpon>201911152006319_AppointmentAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Appointment.cs" />
     <Compile Include="Models\People.cs" />
@@ -270,6 +274,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911051958352_Initial.resx">
       <DependentUpon>201911051958352_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911152006319_AppointmentAdded.resx">
+      <DependentUpon>201911152006319_AppointmentAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

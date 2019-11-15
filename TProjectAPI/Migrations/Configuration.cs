@@ -19,13 +19,13 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
-            context.People.Add(new People()
+            /*context.People.Add(new People()
             {
                 FirstName = "Steven",
                 LastName = "Pham",
                 DOB = DateTime.Today
             });
-            
+            */
         }
     }
 }
