@@ -11,5 +11,6 @@ namespace TProjectAPI.Models
         public String Description { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public int EmployeeID { get; set; }
     }
 }
